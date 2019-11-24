@@ -35,6 +35,16 @@ This will write a JSON tree representation to disk at `get-org/data/tree.json`. 
 node get-org
 ```
 
+### Traverse
+
+After generating the `tree.json` file, you can perform a breadth-first search of the tree to filter the data or otherwise make use of it.
+
+```
+node get-org/traverse.js
+```
+
+Process each node using the `handleNode` function.
+
 ### Example JSON output
 
 ```
