@@ -13,7 +13,7 @@ Copy `.env.example` to `.env`
 3. The URL should look like this: `https://www.myworkday.com/ORG_NAME/d/inst/ID_1/rel-task/ID_2.htmld`. Copy ORG_NAME from the URL into your `.env` file
 4. Scroll to the top node of the org tree. This should be the CEO/President/Founder of the company.
 5. Filter Network requests for `navigable`. You should see a POST request to a URL that looks like this: `https://www.myworkday.com/ORG_NAME/navigable/ID.htmld`
-6. Inspect the request and find the Form Data that was sent. Copy the values to your `.env.` file, mapping as follows:
+6. Inspect the request and find the Form Data that was sent. Copy the values to your `.env` file, mapping as follows:
 - navigable-instance-iid => ROOT_NODE_ID
 - navigable-instance-did => ROOT_NODE_NAME
 - initial-step => INITIAL_STEP_ID
