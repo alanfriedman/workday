@@ -1,0 +1,14 @@
+{
+  "name": "workday-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "date-fns": "^2.8.1",
+    "dotenv": "^8.2.0",
+    "form-data": "^3.0.0",
+    "lodash": "^4.17.15",
+    "redis": "^2.8.0"
+  }
+}

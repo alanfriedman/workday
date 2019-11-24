@@ -1,0 +1,4 @@
+.env
+*.rdb
+node_modules
+*/data/*.json
