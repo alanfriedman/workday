@@ -29,7 +29,7 @@ redis-server
 
 ### Run
 
-This will write a JSON tree representation to disk at `get-org/data/tree.json`. The first run could take 10-30 minutes. You can exit the process and restart anytime.
+This will write a JSON tree representation to disk at `get-org/data/tree.json`. The first run could take several minutes, depending on the size of your organization. You can exit the process and restart anytime.
 
 ```
 node get-org
