@@ -7,7 +7,6 @@ const fs = require('fs');
 const path = require('path');
 const redis = require("redis");
 const {promisify} = require('util');
-const tree = require('./data/tree.json');
 const _ = require('lodash');
 const wait = require('waitms');
 const hexID = require('hexid');
