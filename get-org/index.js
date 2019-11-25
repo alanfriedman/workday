@@ -10,7 +10,7 @@ const {promisify} = require('util');
 const tree = require('./data/tree.json');
 const _ = require('lodash');
 const {wait} = require('../shared/wait');
-const {getUUID} = require('../shared/crypto');
+const hexID = require('hexid');
 
 let {
   ORG_NAME: orgName,
@@ -77,7 +77,7 @@ class Node {
   }
 
   async fetchDetails() {
-    const uuid = await getUUID();
+    const uuid = await hexID();
     const baseUrl = `https://www.myworkday.com/${orgName}/inst/autocompletesearch/${this.personId}.htmld`;
 
     const cached = await redisGetAsync(baseUrl);
@@ -186,7 +186,7 @@ function setCache(key, val) {
 }
 
 async function fetchNode({id, name}) {
-  const uuid = await getUUID();
+  const uuid = await hexID();
 
   const url = Node.createUrlFromId(id);
 

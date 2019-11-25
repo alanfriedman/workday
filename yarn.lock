@@ -65,6 +65,11 @@ form-data@^3.0.0:
     combined-stream "^1.0.8"
     mime-types "^2.1.12"
 
+hexid@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/hexid/-/hexid-1.0.3.tgz#aaf624a01402f73e89362daf048289875bbe9d40"
+  integrity sha512-vb5fyuH0xKAMkU8tGJvY1ToFlklfgNOcC67YtLE4WUO6PkwGMyqsYNbrIp7kt6hte5PADH92nqV0/EFqE4UzPQ==
+
 is-buffer@^2.0.2:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-2.0.4.tgz#3e572f23c8411a5cfd9557c849e3665e0b290623"
