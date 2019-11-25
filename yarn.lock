@@ -115,3 +115,8 @@ redis@^2.8.0:
     double-ended-queue "^2.1.0-0"
     redis-commands "^1.2.0"
     redis-parser "^2.6.0"
+
+waitms@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/waitms/-/waitms-1.0.1.tgz#5cdb4b24fb1cbb88fa7bb80d0fe1f527052a136b"
+  integrity sha512-1o58+lp1/c64RpP5BpNeoONWub1SG3KEmaosCMjd1JLvCvVwEH13VOWLPowyzHGaSmsUPSZmQpAKSew8IMpYdA==
