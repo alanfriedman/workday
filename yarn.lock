@@ -15,6 +15,11 @@ axios@^0.19.0:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
 
+bfsearch@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/bfsearch/-/bfsearch-1.0.0.tgz#0b5f57520c10bd92d0ee6b2027dac31a96ff1d52"
+  integrity sha512-QF6aB5VSuMHm/qhB+fupU/NZGPtpaQeCd++vBqDIUWTIR7tO+5wnJAGwvsyaDCe2nympZ7Pr6JQ+HexPb3Lq0A==
+
 combined-stream@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
